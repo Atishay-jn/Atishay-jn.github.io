@@ -176,6 +176,8 @@ h1:hover span{
 
 .something {
 	font-size: 2em;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 #fullpage section { 
@@ -199,7 +201,6 @@ h1:hover span{
 }
 
 #fullpage section:nth-child(3) { 
-	margin: 5;
 	background-color: rgb(167, 125, 194);
 }
 
