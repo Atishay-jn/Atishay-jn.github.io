@@ -23,6 +23,8 @@ a:active {
 
 .something {
 	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 2px;
 }
 
 .content {
@@ -174,6 +176,10 @@ nav ul li a {
 
 h1 span{
       font-weight: 350;
+}
+
+h1 {
+	letter-spacing: 4px;
 }
 
 #fullpage {
