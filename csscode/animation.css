@@ -179,10 +179,8 @@ h1:hover span{
 }
 
 #fullpage section { 
-	width: 100%;
+	width: 94%;
 	height: 100vh;
-	padding-left: 5%;
-	padding-right: 5%;
 }
 
 #fullpage h1 {
