@@ -49,8 +49,8 @@ h4 {
 
 p {
     color: #CCC;
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 15.5px;
+    font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.2px;
 }
@@ -464,7 +464,7 @@ body.offcanvas {
       color: #2c98f0; }
   .services h3 {
     font-family: "Quicksand", Arial, sans-serif;
-    font-size: 16px;
+    font-size: 16.7px;
     font-weight: 500; }
   .services.color-2 {
     border-bottom: 2px solid #ec5453; 
@@ -522,7 +522,7 @@ body.offcanvas {
       border-color: #2c98f0 transparent transparent transparent; }
     .services .icon i {
       font-size: 30px;
-      color: #fff;
+      color: #eee;
       z-index: 1;
       display: table-cell;
       vertical-align: middle; }
@@ -679,11 +679,12 @@ body.offcanvas {
   font-weight: 500; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
-  color: #000; }
+  color: #ddd; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
   -webkit-opacity: .4;
   -moz-opacity: .4;
+  color: #ddd;
   opacity: .4;
   -ms-filter: alpha(opacity=40);
   filter: alpha(opacity=40);
@@ -691,6 +692,7 @@ body.offcanvas {
 
 .hire {
   padding: 2em;
+  margin-bottom: 5em;
   background: #f1c40f; }
   .hire h2 {
     line-height: 1.5; }
@@ -700,6 +702,63 @@ body.offcanvas {
     letter-spacing: 1px;
     bordeR: 1px solid #000;
     padding: 2px 10px; }
+
+
+#colorlib-counter {
+  position: relative;
+  clear: both;
+}
+
+.colorlib-counters {
+  padding: 3em 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center; }
+  .colorlib-counters .overlay {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(34, 34, 34, 0.4);
+  }
+  .colorlib-counters .icon {
+    width: 100px;
+    height: 100px;
+    display: table;
+    margin: 0 auto;
+  }
+    .colorlib-counters .icon i {
+      display: table-cell;
+      vertical-align: middle;
+      width: 100px;
+      height: 100px;
+      font-size: 50px;
+      color: #2c98f0;
+      background: #fff;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%; }
+  .colorlib-counters .counter-wrap {
+    border: 1px solid red !important; }
+  .colorlib-counters .colorlib-counter {
+    font-size: 40px;
+    display: block;
+    color: white;
+    font-family: "Quicksand", Arial, sans-serif;
+    width: 100%;
+    font-weight: 700;
+    margin-bottom: .3em; }
+  .colorlib-counters .colorlib-counter-label {
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-bottom: 2em;
+    display: block; }
+
 
 /*---------------------------------------
    Gallery section              
@@ -1036,6 +1095,7 @@ footer .footer-copyright {
     position: relative;
     padding: 0;
     margin: 0;
+    margin-top: 1em;
     text-align: center;
 }
 
@@ -1049,7 +1109,7 @@ footer .footer-copyright {
     color: #292929;
     border-radius: 100px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 26px;
     text-decoration: none;
     transition: all 0.4s ease-in-out;
     width: 50px;
