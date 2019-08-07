@@ -564,6 +564,10 @@ body.offcanvas {
   -moz-background-clip: padding;
   background-clip: padding-box; }
 
+.timeline-label a {
+  color: #ddd;
+}
+
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
   content: '';
   display: block;
